@@ -12,9 +12,6 @@ import warnings
 # Suppress warnings for clean output
 warnings.filterwarnings('ignore')
 
-# Setting the working directory to the folder containing the dataset
-os.chdir('/Users/theovl/Downloads')
-
 # --- Loading the data ---
 df = pd.read_csv('data.csv')  # Main dataset
 info = pd.read_csv('Data+description+-+sheet1.csv')  # Metadata about the dataset
