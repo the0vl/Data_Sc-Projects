@@ -19,12 +19,6 @@ import os
 os.getcwd()
 
 
-# In[3]:
-
-
-os.chdir('/Users/theovl/Downloads')
-
-
 # In[4]:
 
 
